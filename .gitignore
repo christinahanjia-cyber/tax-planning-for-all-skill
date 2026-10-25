@@ -1,0 +1,8 @@
+# Do not commit user documents, local calculation inputs, or credentials.
+*.pdf
+*.zip
+*.json
+.env
+.env.*
+node_modules/
+.DS_Store
