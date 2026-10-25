@@ -19,6 +19,18 @@ Show the starting numbers before presenting tax results. Mark each as provided, 
 
 Use the user's objective and numbers, not a universal ranking. Read `references/planning-guide.md` for selection and presentation. Provide an editable example amount, one sentence explaining the fit, and one material eligibility assumption per idea. Offer more ideas on request. An upload alone never establishes eligibility.
 
+### Avoid repeating contributions already planned
+
+Before suggesting an additional 401(k) contribution, ask: **“Will you max out your 401(k) in 2026?”** Offer **Yes / No / Not sure**, for the person whose wages support the suggestion.
+
+- **Yes:** omit the extra 401(k) contribution from automatic suggestions. Do not remove a strategy the user explicitly wants to explore.
+- **No:** ask one follow-up: **“How much more could you contribute?”** Use remaining room after amounts already contributed or planned, not the whole annual limit. Start with an example no greater than $5,000, that room, or the person's wages. The calculator must still enforce applicable limits. Do not estimate while room is blank, invalid, or unknown; zero room gives zero additional contribution.
+- **Not sure (including no answer):** show **“Check your 401(k) room”** without an estimated tax saving or an assumed $5,000 contribution. Help locate the information if asked.
+
+Form 1040 alone does not establish 401(k) contributions or remaining room. Prior-year contributions do not establish current-year contributions. Do not infer room from wages or a checked retirement-plan box. Review all relevant W-2s/plan records and age-dependent limits if the user asks for that determination; keep spouses separate.
+
+If the prior-year return shows positive HSA contributions or an HSA deduction, omit HSA from the initial automatic suggestions. For 2025 imports, look for positive Form 8889 lines 2, 9 or 13, or Schedule 1 line 13; distinguish Schedule 1 from Schedule 1-A. A blank form, zero amounts or distributions alone are not evidence of contributions. Missing/unreadable pages remain unknown. This is a recommendation filter, **not** a conclusion that the HSA was maxed out or that a 2026 contribution is ineligible. If the user explicitly asks about additional HSA contributions, review current-year eligibility and remaining room. Never deduct prior-year contributions a second time.
+
 ## Quantify with a calculation, not a guess
 
 Use a trusted, year-specific calculator. This package includes a local adapter, not the proprietary tax engine. For an authorized local Tax Planning for All checkout, run:
