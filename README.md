@@ -54,9 +54,13 @@ Attach a redacted PDF, then ask:
 
 > Use tax-planning-for-all. Compare an extra $5,000 traditional 401(k) contribution with a $5,000 cash donation. If a compatible calculator is available, show the tax change and cash needed for each. Explain which money remains mine. Otherwise, tell me what to enter in a calculator—do not invent dollar savings.
 
+**Already contributing to retirement or an HSA?**
+
+> Use tax-planning-for-all. I expect to max out my 401(k) in 2026, and my 2025 return includes HSA contributions. Suggest other ideas instead of repeating those two.
+
 ## What to expect
 
-Up to three relevant ideas, simple explanations, and clear assumptions. Dollar results require a compatible calculator; the included adapter connects only to an authorized local engine. Combined savings must be recalculated, never added together.
+Up to three relevant ideas, simple explanations, and clear assumptions. The skill asks whether you will max out your 2026 401(k) before estimating additional contributions, and skips automatic HSA suggestions when prior-year contributions are detected. Dollar results require a compatible calculator; the included adapter connects only to an authorized local engine. Combined savings must be recalculated, never added together.
 
 **Privacy:** PDFs shared with Claude or Codex follow that platform's data policies. You can use rounded numbers instead. Never post tax returns in this repository.
 
